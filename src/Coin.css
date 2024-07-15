@@ -4,6 +4,12 @@
   border: 1px solid white;
   border-radius: 5%;
   margin: 30px;
+  transition: all 0.5s;
+}
+
+.coin-container:hover {
+  transition: all 0.5s;
+  scale: 1.1;
 }
 
 .coin {
@@ -13,7 +19,7 @@
   text-align: center;
 }
 
-.coin-symbol{
+.coin-symbol {
   text-transform: uppercase;
   margin-top: 15px;
 }
@@ -21,7 +27,6 @@
 .coin img {
   margin: 20px;
   width: 100px;
-
 }
 
 .coin-data {
